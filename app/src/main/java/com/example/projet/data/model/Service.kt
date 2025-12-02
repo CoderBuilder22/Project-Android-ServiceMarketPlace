@@ -1,14 +1,10 @@
 package com.example.projet.data.model
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-
-@Entity(tableName = "services")
 data class Service(
-    @PrimaryKey(autoGenerate = true)
-    val id: Int = 0,
-    val name: String,
+    val _id: String,
+    val title: String,
     val description: String,
     val price: Double,
-    val providerId: String
+    val photoURL: String
 )
+

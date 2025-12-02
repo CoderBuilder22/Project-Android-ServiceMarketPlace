@@ -59,6 +59,13 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.0")
 
+    // Fragment
+    implementation("androidx.fragment:fragment-ktx:1.8.0")
+
+    // Navigation
+    val nav_version = "2.7.7"
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
